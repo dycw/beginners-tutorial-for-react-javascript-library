@@ -1,6 +1,7 @@
 function MainContent() {
   return <div>Main content</div>;
 }
+
 ReactDOM.render(
   <nav>
     <h1>Website</h1>
