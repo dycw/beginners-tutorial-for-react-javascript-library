@@ -1,16 +1,11 @@
-import Footer from "./Footer.jsx";
-import Header from "./Header.jsx";
-import MainContent from "./MainContent.jsx";
+import Navbar from "./components/Navbar.jsx";
+import Main from "./components/Main.jsx";
 
-function Page() {
+export default function App() {
   return (
-    <div>
-      <Header />
-      <MainContent />
-      <Footer />
+    <div className="container">
+      <Navbar />
+      <Main />
     </div>
   );
-}
-export default function App() {
-  return <Page />;
 }
